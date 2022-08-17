@@ -1,0 +1,10 @@
+Troubleshooting tidbits
+If you've been through the Zero to Mastery TensorFlow for Deep Learning course, you've had plenty of experience troubleshooting different models.
+
+But for reference, here are some of the main issues you might run into (inside and outside of the exam):
+
+Input and output shapes — print these out if you're stuck.
+Input and output datatypes — TensorFlow usually prefers float32.
+Output activation functions — for classification: sigmoid vs softmax, which one should you use?
+Loss functions — for classification sparse_categorical_crossentropy vs categorical_crossentropy, which one should you use?
+Ways to improve a model — if your model isn't performing as well as it should, what can you do?
